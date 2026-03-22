@@ -1,13 +1,12 @@
-# 💾 BigData-Hadoop
-Demonstrates Hadoop ecosystem experience: HDFS, MapReduce, and Spark basics
+## 💾 BigData-Hadoop
+Demonstrates experience with the Hadoop ecosystem, focusing on distributed storage and processing.
 
-## Features
-- Hands-on experience with **HDFS** (storing and accessing big data)
-- **MapReduce jobs** for processing large datasets
-- Basic **Spark integration** for faster analytics
+### ✨ Features
+- **HDFS:** Hands-on experience storing and accessing large-scale datasets.
+- **MapReduce:** Writing custom jobs to process data across clusters.
+- **Spark:** Basic integration for high-speed, in-memory analytics.
 
-## MapReduce Python Code
-
+### 🐍 MapReduce Python Code
 ```python
 from mrjob.job import MRJob
 
@@ -21,38 +20,40 @@ class MRWordCount(MRJob):
 
 if __name__ == '__main__':
     MRWordCount.run()
-
 Resources:
 
-Apache Hadoop Official Website
+Official Apache Hadoop Documentation
 
----
+🔄 Data-Pipelines
+Demonstrates the creation of robust ETL (Extract, Transform, Load) pipelines for downstream analytics.
 
-### 🔄 Data-Pipelines
+✨ Features
+Extract: Automating data retrieval from diverse sources (CSVs, APIs, SQL).
 
-```markdown
-# 🔄 Data-Pipelines
-This project demonstrates my experience creating **ETL/Data Pipelines** for analytics.
+Transform: Cleaning and aggregating data using Python (Pandas) or SQL.
 
-## Features
-- Extract data from **various sources**
-- Transform data using **Python or SQL**
-- Load cleaned data into **databases or analytics tools**
+Load: Shipping processed data to databases or analytics-ready files.
 
-## Example ETL Python Code
-
-```python
+🐍 Example ETL Python Code
+Python
 import pandas as pd
 
 # Extract
 data = pd.read_csv("raw_data.csv")
 
 # Transform
+# Calculating total revenue per row
 data['total'] = data['quantity'] * data['price']
 
 # Load
 data.to_csv("processed_data.csv", index=False)
-
 Resources:
 
-ETL Concepts Wiki
+Core ETL Concepts & Best Practices
+
+🛠️ Technologies Used
+Languages: Python, SQL
+
+Big Data: HDFS, MapReduce, Apache Spark
+
+Libraries: Pandas, MRJob
