@@ -22,17 +22,16 @@ class MRWordCount(MRJob):
 if __name__ == '__main__':
     MRWordCount.run()
 
+Resources:
 
-    Resources
-Apache Hadoop
+Apache Hadoop Official Website
 
 ---
 
-### **Data-Pipelines README.md** (for the other repo)
+### 🔄 Data-Pipelines
 
 ```markdown
 # 🔄 Data-Pipelines
-
 This project demonstrates my experience creating **ETL/Data Pipelines** for analytics.
 
 ## Features
@@ -54,17 +53,6 @@ data['total'] = data['quantity'] * data['price']
 # Load
 data.to_csv("processed_data.csv", index=False)
 
+Resources:
 
-
-
-
-Resources
-ETL Concepts
-
----
-
-✅ Key point:  
-- **BigData-Hadoop repo only contains Hadoop content**  
-- **Data-Pipelines repo only contains ETL/Data Pipeline content**  
-
----
+ETL Concepts Wiki
