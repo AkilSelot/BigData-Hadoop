@@ -22,7 +22,9 @@ if __name__ == '__main__':
     MRWordCount.run()
 Resources:
 
-Official Apache Hadoop Documentation
+Apache Hadoop Official Website
+
+MRJob Documentation (Python MapReduce)
 
 🔄 Data-Pipelines
 Demonstrates the creation of robust ETL (Extract, Transform, Load) pipelines for downstream analytics.
@@ -49,7 +51,9 @@ data['total'] = data['quantity'] * data['price']
 data.to_csv("processed_data.csv", index=False)
 Resources:
 
-Core ETL Concepts & Best Practices
+ETL Concepts & Best Practices
+
+Pandas Documentation
 
 🛠️ Technologies Used
 Languages: Python, SQL
