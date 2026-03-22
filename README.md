@@ -6,7 +6,7 @@ Demonstrates Hadoop ecosystem experience: HDFS, MapReduce, and Spark basics
 - **MapReduce jobs** for processing large datasets
 - Basic **Spark integration** for faster analytics
 
-## Example MapReduce Python Code
+## MapReduce Python Code
 
 ```python
 from mrjob.job import MRJob
