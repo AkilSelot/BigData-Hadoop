@@ -1,6 +1,4 @@
 ## 💾 BigData-Hadoop
-Demonstrated experience with distributed storage and processing using the Hadoop framework.
-
 ### ✨ Features
 - **HDFS:** Experience managing and storing large-scale datasets.
 - **MapReduce:** Custom Python-based jobs for distributed data processing.
@@ -44,7 +42,6 @@ import pandas as pd
 data = pd.read_csv("raw_data.csv")
 
 # Transform
-# Calculating total revenue per row
 data['total'] = data['quantity'] * data['price']
 
 # Load
@@ -61,3 +58,23 @@ Languages: Python, SQL
 Big Data: HDFS, MapReduce, Apache Spark
 
 Libraries: Pandas, MRJob
+
+🚀 How to Run These Projects
+1. Hadoop MapReduce
+To run the word count job locally:
+
+Bash
+python word_count.py input_data.txt
+2. Data Pipeline (ETL)
+To run the automated cleaning script:
+
+Bash
+# Ensure pandas is installed
+pip install pandas
+
+# Run the pipeline
+python data_pipeline.py
+📧 Contact
+Akil Selot selotatik@gmail.com
+
+GitHub Profile
