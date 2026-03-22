@@ -1,9 +1,9 @@
 ## 💾 BigData-Hadoop
-Demonstrates experience with the Hadoop ecosystem, focusing on distributed storage and processing.
+Demonstrated experience with distributed storage and processing using the Hadoop framework.
 
 ### ✨ Features
-- **HDFS:** Hands-on experience storing and accessing large-scale datasets.
-- **MapReduce:** Writing custom jobs to process data across clusters.
+- **HDFS:** Experience managing and storing large-scale datasets.
+- **MapReduce:** Custom Python-based jobs for distributed data processing.
 - **Spark:** Basic integration for high-speed, in-memory analytics.
 
 ### 🐍 MapReduce Python Code
@@ -24,17 +24,17 @@ Resources:
 
 Apache Hadoop Official Website
 
-MRJob Documentation (Python MapReduce)
+MRJob Documentation
 
 🔄 Data-Pipelines
-Demonstrates the creation of robust ETL (Extract, Transform, Load) pipelines for downstream analytics.
+Creation of robust ETL (Extract, Transform, Load) pipelines for downstream analytics.
 
 ✨ Features
-Extract: Automating data retrieval from diverse sources (CSVs, APIs, SQL).
+Extract: Retrieval from diverse sources like CSVs and SQL databases.
 
-Transform: Cleaning and aggregating data using Python (Pandas) or SQL.
+Transform: Data cleaning and feature engineering using Pandas.
 
-Load: Shipping processed data to databases or analytics-ready files.
+Load: Outputting processed data for business intelligence tools.
 
 🐍 Example ETL Python Code
 Python
