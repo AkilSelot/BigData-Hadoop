@@ -1,0 +1,4 @@
+Hadoop is an open-source framework.
+Hadoop uses HDFS for storage.
+MapReduce is used for processing.
+Spark is faster than MapReduce.
